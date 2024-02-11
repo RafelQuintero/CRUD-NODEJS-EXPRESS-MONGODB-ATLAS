@@ -1,0 +1,24 @@
+###
+POST http://localhost:9000/api/insert HTTP/1.1
+
+Content-Type: application/json
+    
+    {
+        "name" : "Perro",
+    
+        "habilidad":  "Venusaur" ,
+    
+        "habilidad_oculta" : "Clorofila",
+    
+        "color": "Verde"    ,
+    
+        "especie": "Pokémon Semilla",   
+    }
+
+
+###
+GET http://localhost:9000/api/findall HTTP/1.1
+
+
+
+ 
